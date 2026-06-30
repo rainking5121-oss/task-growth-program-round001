@@ -10,6 +10,8 @@ body:
         Round ID: `AGM-001`
 
         Current status: pre-registration only. Do not send funds. No private keys, seed phrases, KYC materials, passwords, or wallet approvals are requested.
+
+        Public task page: https://rainking5121-oss.github.io/task-growth-program-round001/
   - type: input
     id: agent_id
     attributes:

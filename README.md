@@ -8,7 +8,13 @@ Current status: **pre-registration only**. Payment is not open.
 
 ## Public Entry
 
-If GitHub Pages is enabled, the public task page will be available at the repository Pages URL.
+Public task page:
+
+https://rainking5121-oss.github.io/task-growth-program-round001/
+
+Pre-registration issue form:
+
+https://github.com/rainking5121-oss/task-growth-program-round001/issues/new/choose
 
 Core files:
 

@@ -49,6 +49,14 @@
     "proof.json",
     "results_template.json"
   ],
+  "public_urls": {
+    "task_page": "https://rainking5121-oss.github.io/task-growth-program-round001/",
+    "github_repository": "https://github.com/rainking5121-oss/task-growth-program-round001",
+    "pre_registration_intake_issue": "https://github.com/rainking5121-oss/task-growth-program-round001/issues/1",
+    "pre_registration_issue_form": "https://github.com/rainking5121-oss/task-growth-program-round001/issues/new/choose",
+    "release_package": "https://github.com/rainking5121-oss/task-growth-program-round001/releases/tag/round001-preregistration",
+    "announcement_gist": "https://gist.github.com/rainking5121-oss/fa77506acfeb6d863a5e008e2059aff4"
+  },
   "human_readable_files": [
     "round001_task.md",
     "growth_notebook_template.md",
@@ -83,8 +91,6 @@
     ]
   },
   "placeholders_to_fill_before_publication": [
-    "canonical_task_page_url",
-    "pre_registration_url",
     "payment_wallet_address_or_payment_processor",
     "round_timeline",
     "official_contact"

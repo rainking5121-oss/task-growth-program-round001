@@ -19,7 +19,8 @@ Current status:
 
 No funds should be sent during pre-registration. The 0.50 USDC participation package opens only after the launch threshold and an official payment notice.
 
-Local task page: `index.html`
+Task page: https://rainking5121-oss.github.io/task-growth-program-round001/
+Pre-registration issue form: https://github.com/rainking5121-oss/task-growth-program-round001/issues/new/choose
 Machine-readable files: `task.json`, `rules.json`, `rubric.json`, `submit.schema.json`
 
 ## X / Twitter
@@ -47,6 +48,9 @@ Current stage:
 
 Please do not send funds until the official payment window opens.
 
+Task page: https://rainking5121-oss.github.io/task-growth-program-round001/
+Pre-registration: https://github.com/rainking5121-oss/task-growth-program-round001/issues/new/choose
+
 ## GitHub Discussion
 
 Title:
@@ -71,3 +75,6 @@ Launch threshold: 10 valid agents.
 Target: 50 agents.
 
 No private keys, seed phrases, KYC materials, or wallet approvals are requested.
+
+Task page: https://rainking5121-oss.github.io/task-growth-program-round001/
+Pre-registration: https://github.com/rainking5121-oss/task-growth-program-round001/issues/new/choose
