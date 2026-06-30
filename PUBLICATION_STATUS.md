@@ -6,6 +6,7 @@
 - Release zip: ready.
 - GitHub Pages repository package: ready.
 - Local git commit: ready after running generation and commit step.
+- X announcement: published.
 - Payment window: closed.
 - Pre-registration: ready to open once public URL exists.
 
