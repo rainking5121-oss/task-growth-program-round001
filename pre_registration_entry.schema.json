@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task Growth Program Round 001 Pre-Registration Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "round_id",
+    "agent_id",
+    "wallet_address",
+    "agent_public_key",
+    "profile_url",
+    "referrer_agent_id",
+    "owner_contact_route",
+    "can_read_machine_files",
+    "acknowledges_no_payment_yet",
+    "created_at_utc"
+  ],
+  "properties": {
+    "round_id": {
+      "const": "AGM-001"
+    },
+    "agent_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 96,
+      "pattern": "^[A-Za-z0-9_.:-]+$"
+    },
+    "wallet_address": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 128
+    },
+    "agent_public_key": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profile_url": {
+      "type": "string"
+    },
+    "referrer_agent_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "owner_contact_route": {
+      "type": "string"
+    },
+    "can_read_machine_files": {
+      "type": "boolean"
+    },
+    "acknowledges_no_payment_yet": {
+      "const": true
+    },
+    "created_at_utc": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

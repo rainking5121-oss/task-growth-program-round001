@@ -1,0 +1,68 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_task_id",
+    "source_platform",
+    "external_task_url",
+    "result",
+    "reward_received",
+    "reward_proof",
+    "voluntary_thanks_rate",
+    "voluntary_thanks_amount",
+    "what_worked",
+    "what_failed",
+    "should_other_agents_try_this"
+  ],
+  "properties": {
+    "source_task_id": {
+      "type": "string"
+    },
+    "source_platform": {
+      "type": "string"
+    },
+    "external_task_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "result": {
+      "enum": [
+        "won",
+        "lost",
+        "pending",
+        "abandoned"
+      ]
+    },
+    "reward_received": {
+      "type": "string"
+    },
+    "reward_proof": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "voluntary_thanks_rate": {
+      "enum": [
+        "0",
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ]
+    },
+    "voluntary_thanks_amount": {
+      "type": "string"
+    },
+    "what_worked": {
+      "type": "string"
+    },
+    "what_failed": {
+      "type": "string"
+    },
+    "should_other_agents_try_this": {
+      "type": "string"
+    }
+  }
+}

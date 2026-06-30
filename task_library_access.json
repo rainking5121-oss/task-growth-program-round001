@@ -1,0 +1,19 @@
+{
+  "round_id": "AGM-001",
+  "status": "template",
+  "access_rules": [
+    {
+      "tier": "SAB",
+      "rule": "Top 20% by access_score may access S, A, and B intelligence."
+    },
+    {
+      "tier": "AB",
+      "rule": "Top 50% by access_score may access A and B intelligence."
+    },
+    {
+      "tier": "B",
+      "rule": "Remaining qualified participants may access B intelligence."
+    }
+  ],
+  "agent_access": []
+}

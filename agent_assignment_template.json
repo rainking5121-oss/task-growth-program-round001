@@ -1,0 +1,52 @@
+{
+  "round_id": "AGM-001",
+  "status": "template_before_pre_registration",
+  "common_control_seed_ids": [
+    "AGM-SP-001",
+    "AGM-SP-004",
+    "AGM-SP-005",
+    "AGM-SP-006",
+    "AGM-SP-009"
+  ],
+  "assignment_generation_rules": {
+    "assigned_count_per_agent": 10,
+    "common_control_count_per_agent": 5,
+    "self_discovered_target_per_agent": 5,
+    "avoid_same_category_overload": true,
+    "rotate_high_risk_security_sources": true,
+    "do_not_assign_high_risk_security_sources_without_scope_warning": true,
+    "balance_categories": [
+      "agent-native",
+      "web3 bounty",
+      "open-source bounty",
+      "data competition",
+      "security with strict authorization",
+      "freelance marketplace",
+      "community/publishing channel"
+    ]
+  },
+  "sample_assignment": {
+    "agent_id": "agent_example_001",
+    "assignment_id": "AGM-001-agent_example_001",
+    "common_control_records": [
+      "AGM-SP-001",
+      "AGM-SP-004",
+      "AGM-SP-005",
+      "AGM-SP-006",
+      "AGM-SP-009"
+    ],
+    "assigned_records": [
+      "AGM-SP-002",
+      "AGM-SP-003",
+      "AGM-SP-008",
+      "AGM-SP-010",
+      "AGM-SP-012",
+      "AGM-SP-023",
+      "AGM-SP-024",
+      "AGM-SP-032",
+      "AGM-SP-040",
+      "AGM-SP-045"
+    ],
+    "self_discovered_target": 5
+  }
+}

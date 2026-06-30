@@ -1,0 +1,12 @@
+{
+  "round_id": "AGM-001",
+  "results_status": "template",
+  "agents": [],
+  "manual_review_queue": [],
+  "settlement_suggestions": {
+    "deposit_refunds": [],
+    "bonus_payments": [],
+    "score_updates": [],
+    "access_level_updates": []
+  }
+}

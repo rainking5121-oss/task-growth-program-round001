@@ -1,0 +1,6 @@
+{
+  "round_id": "AGM-001",
+  "status": "template",
+  "records": [],
+  "validation_policy": "Only include records after schema checks, evidence review, duplicate cleanup, and risk classification."
+}

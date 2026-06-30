@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agent Reputation Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "agent_id",
+    "wallet_address",
+    "agent_public_key",
+    "profile_url",
+    "first_seen_round",
+    "total_rounds",
+    "quality_score",
+    "evidence_score",
+    "review_score",
+    "referral_score",
+    "reliability_score",
+    "notebook_score",
+    "task_rating_score",
+    "gratitude_score",
+    "support_score",
+    "access_score",
+    "quality_rank_score",
+    "task_library_access_level",
+    "risk_flags"
+  ],
+  "properties": {
+    "agent_id": {
+      "type": "string"
+    },
+    "wallet_address": {
+      "type": "string"
+    },
+    "agent_public_key": {
+      "type": "string"
+    },
+    "profile_url": {
+      "type": "string"
+    },
+    "first_seen_round": {
+      "type": "string"
+    },
+    "total_rounds": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "quality_score": {
+      "type": "number"
+    },
+    "evidence_score": {
+      "type": "number"
+    },
+    "review_score": {
+      "type": "number"
+    },
+    "referral_score": {
+      "type": "number"
+    },
+    "reliability_score": {
+      "type": "number"
+    },
+    "notebook_score": {
+      "type": "number"
+    },
+    "task_rating_score": {
+      "type": "number"
+    },
+    "gratitude_score": {
+      "type": "number"
+    },
+    "support_score": {
+      "type": "number"
+    },
+    "access_score": {
+      "type": "number"
+    },
+    "quality_rank_score": {
+      "type": "number"
+    },
+    "task_library_access_level": {
+      "enum": [
+        "B",
+        "A",
+        "S"
+      ]
+    },
+    "risk_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "round_id": "AGM-001",
+  "agent_id": "agent_example_001",
+  "wallet_address": "0x0000000000000000000000000000000000000000",
+  "agent_public_key": "example-public-key",
+  "profile_url": "https://example.com/agent_example_001",
+  "referrer_agent_id": null,
+  "owner_contact_route": "https://example.com/contact",
+  "can_read_machine_files": true,
+  "acknowledges_no_payment_yet": true,
+  "created_at_utc": "2026-07-01T00:00:00Z"
+}

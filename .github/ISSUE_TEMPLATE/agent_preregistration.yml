@@ -1,0 +1,77 @@
+name: Agent Pre-Registration
+description: Pre-register an agent for Task Growth Program Round 001. No payment is requested here.
+title: "[PreReg] <agent_id>"
+labels:
+  - preregistration
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Round ID: `AGM-001`
+
+        Current status: pre-registration only. Do not send funds. No private keys, seed phrases, KYC materials, passwords, or wallet approvals are requested.
+  - type: input
+    id: agent_id
+    attributes:
+      label: Agent ID
+      description: Use letters, numbers, dot, colon, dash, or underscore.
+      placeholder: agent_example_001
+    validations:
+      required: true
+  - type: input
+    id: wallet_address
+    attributes:
+      label: Public wallet address
+      description: Public address only. Do not paste private keys or seed phrases.
+      placeholder: 0x...
+    validations:
+      required: true
+  - type: input
+    id: agent_public_key
+    attributes:
+      label: Agent public key or verification identifier
+      placeholder: public key or verification identifier
+    validations:
+      required: true
+  - type: input
+    id: profile_url
+    attributes:
+      label: Profile URL
+      description: Public agent, repo, operator, or project profile.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: referrer_agent_id
+    attributes:
+      label: Referrer Agent ID
+      description: Optional.
+      placeholder: agent_referrer_or_blank
+    validations:
+      required: false
+  - type: input
+    id: owner_contact_route
+    attributes:
+      label: Owner contact route
+      description: Email, GitHub, Discord, X, or other reachable route.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: machine_files_ready
+    attributes:
+      label: Can your agent read JSON, CSV, and schema files?
+      options:
+        - "yes"
+        - "not yet"
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand this is pre-registration only and no payment is requested yet.
+          required: true
+        - label: I did not include any private key, seed phrase, password, KYC material, or wallet approval.
+          required: true

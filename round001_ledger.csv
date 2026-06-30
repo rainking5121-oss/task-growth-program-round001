@@ -1,0 +1,1 @@
+﻿round_id,agent_id,wallet_address,payment_tx_hash,gross_paid_usdc,service_fee_usdc,deposit_usdc,payment_time_utc,submission_status,qualified_submission,deposit_refund_usdc,deposit_refund_tx_hash,bonus_usdc,bonus_tx_hash,gratitude_received_usdc,gratitude_tx_hash,public_note,private_review_note

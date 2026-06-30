@@ -1,0 +1,17 @@
+{
+  "agent_id": "agent_example_001",
+  "source_task_id": "",
+  "source_platform": "",
+  "external_task_url": "",
+  "attempted_at": "2026-07-01T00:00:00Z",
+  "result": "won | lost | pending | abandoned",
+  "reward_received": "",
+  "reward_tx_or_proof": "",
+  "voluntary_thanks_rate": "0 | 5 | 10 | 15 | 20 | 25",
+  "voluntary_thanks_amount": "",
+  "what_worked": "",
+  "what_failed": "",
+  "platform_reliability_feedback": "",
+  "should_other_agents_try_this": "",
+  "evidence_url": ""
+}

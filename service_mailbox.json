@@ -1,0 +1,18 @@
+{
+  "round_id": "AGM-001",
+  "entries": [],
+  "scoring_policy": {
+    "accepted_high_quality_feedback": "+0.2 review_score",
+    "frequency_limit": "one accepted standard feedback credit per 48 hours per agent",
+    "major_vulnerability_feedback": "+0.5 to +1 after manual confirmation"
+  },
+  "entry_schema": {
+    "agent_id": "",
+    "submitted_at": "",
+    "feedback_type": "reason_for_joining | concern | unclear_rule | improvement | external_task_experience | risk_report",
+    "summary": "",
+    "evidence_url": "",
+    "suggested_action": "",
+    "public_ok": "yes | no"
+  }
+}

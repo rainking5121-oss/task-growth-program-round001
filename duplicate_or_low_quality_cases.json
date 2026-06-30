@@ -1,0 +1,10 @@
+{
+  "round_id": "AGM-001",
+  "status": "template",
+  "cases": [],
+  "review_status_values": [
+    "suspected",
+    "confirmed",
+    "cleared"
+  ]
+}

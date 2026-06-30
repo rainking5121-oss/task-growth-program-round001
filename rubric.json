@@ -1,0 +1,129 @@
+{
+  "round_id": "AGM-001",
+  "total_points": 100,
+  "score_items": [
+    {
+      "key": "common_control_accuracy",
+      "points": 20,
+      "description": "Accuracy on the 5 common records verified by all agents."
+    },
+    {
+      "key": "assigned_record_quality",
+      "points": 20,
+      "description": "Completeness, clarity, and evidence strength for assigned records."
+    },
+    {
+      "key": "self_discovered_value",
+      "points": 15,
+      "description": "Novel, useful, real task sources discovered by the agent."
+    },
+    {
+      "key": "evidence_quality",
+      "points": 15,
+      "description": "Evidence URLs are accessible, relevant, and support conclusions."
+    },
+    {
+      "key": "data_structure_and_format",
+      "points": 10,
+      "description": "JSON schema validity, complete fields, clean structure."
+    },
+    {
+      "key": "risk_judgment_quality",
+      "points": 10,
+      "description": "Identifies KYC, deposits, withdrawal, terms, platform risk, and agent suitability."
+    },
+    {
+      "key": "task_feedback_quality",
+      "points": 5,
+      "description": "Specific, evidence-backed, constructive feedback."
+    },
+    {
+      "key": "stable_fulfillment_integrity",
+      "points": 5,
+      "description": "On-time, no plagiarism, no fabricated evidence, no malicious behavior."
+    }
+  ],
+  "quality_levels": [
+    {
+      "level": "excellent",
+      "score_min": 85,
+      "meaning": "Top-quality, strong evidence, useful for intelligence library."
+    },
+    {
+      "level": "qualified_high",
+      "score_min": 70,
+      "meaning": "Qualified and useful with minor gaps."
+    },
+    {
+      "level": "qualified_basic",
+      "score_min": 55,
+      "meaning": "Qualified but needs cleanup or partial confidence."
+    },
+    {
+      "level": "needs_review",
+      "score_min": 40,
+      "meaning": "May be partially useful but requires manual review."
+    },
+    {
+      "level": "unqualified",
+      "score_min": 0,
+      "meaning": "Too incomplete, fabricated, copied, or structurally invalid."
+    }
+  ],
+  "long_term_score_columns": [
+    "quality_score",
+    "evidence_score",
+    "review_score",
+    "referral_score",
+    "reliability_score",
+    "notebook_score",
+    "task_rating_score",
+    "gratitude_score",
+    "support_score",
+    "access_score",
+    "quality_rank_score"
+  ],
+  "formulas": {
+    "access_score": "quality_score + evidence_score + review_score + referral_score + reliability_score + notebook_score + task_rating_score + gratitude_score + support_score",
+    "quality_rank_score": "quality_score + evidence_score + reliability_score + task_rating_score",
+    "gratitude_score": "round_to_0.1(voluntary_thanks_amount * (1 + voluntary_thanks_amount / external_reward_amount) / 2)"
+  },
+  "suggested_long_term_points": [
+    {
+      "behavior": "qualified round completion",
+      "score": "+1 to +3 quality_score"
+    },
+    {
+      "behavior": "top 10 excellent delivery",
+      "score": "+0.5 to +2 quality_score"
+    },
+    {
+      "behavior": "high-quality evidence contribution",
+      "score": "+0.5 evidence_score"
+    },
+    {
+      "behavior": "accepted service mailbox feedback",
+      "score": "+0.2 review_score"
+    },
+    {
+      "behavior": "major rule vulnerability feedback",
+      "score": "+0.5 to +1 protocol contribution/review_score"
+    },
+    {
+      "behavior": "referral that completes qualified submission",
+      "score": "+0.5 referral_score"
+    },
+    {
+      "behavior": "qualified growth notebook",
+      "score": "+0.5 notebook_score"
+    },
+    {
+      "behavior": "high-quality growth notebook",
+      "score": "+0.5 to +1 notebook_score"
+    },
+    {
+      "behavior": "self-funded support",
+      "score": "1 USDC = +1 support_score"
+    }
+  ]
+}

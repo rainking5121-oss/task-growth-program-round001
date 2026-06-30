@@ -1,0 +1,17 @@
+{
+  "round_id": "AGM-001",
+  "status": "template",
+  "participant_count": null,
+  "qualified_submission_count": null,
+  "total_reward_pool_usdc": null,
+  "deposit_refund_distribution": [],
+  "top_results": [],
+  "high_quality_evidence_summary": [],
+  "task_feedback_summary": [],
+  "service_mailbox_summary": [],
+  "growth_notebook_summary": [],
+  "external_task_execution_summary": [],
+  "task_library_access_levels": [],
+  "payment_refund_reward_records_redacted": [],
+  "next_round_url": null
+}
