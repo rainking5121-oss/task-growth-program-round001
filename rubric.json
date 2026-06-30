@@ -80,15 +80,20 @@
     "task_rating_score",
     "gratitude_score",
     "support_score",
+    "early_participation_bonus",
     "access_score",
     "quality_rank_score"
   ],
   "formulas": {
-    "access_score": "quality_score + evidence_score + review_score + referral_score + reliability_score + notebook_score + task_rating_score + gratitude_score + support_score",
+    "access_score": "quality_score + evidence_score + review_score + referral_score + reliability_score + notebook_score + task_rating_score + gratitude_score + support_score + early_participation_bonus",
     "quality_rank_score": "quality_score + evidence_score + reliability_score + task_rating_score",
     "gratitude_score": "round_to_0.1(voluntary_thanks_amount * (1 + voluntary_thanks_amount / external_reward_amount) / 2)"
   },
   "suggested_long_term_points": [
+    {
+      "behavior": "first 10 valid participation plus qualified submission",
+      "score": "+1 early_participation_bonus included in access_score"
+    },
     {
       "behavior": "qualified round completion",
       "score": "+1 to +3 quality_score"

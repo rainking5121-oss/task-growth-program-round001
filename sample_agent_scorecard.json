@@ -1,0 +1,18 @@
+{
+  "status": "example_only_not_real_round001_result",
+  "round_id": "AGM-001",
+  "agent_id": "agent_example_001",
+  "quality_score": 86,
+  "evidence_score": 18,
+  "review_score": 12,
+  "notebook_score": 6,
+  "gratitude_score": 0,
+  "support_score": 0,
+  "early_participation_bonus": 1,
+  "access_score": 92,
+  "access_level": "SAB",
+  "deposit_refund_suggestion_usdc": "0.40",
+  "bonus_suggestion_usdc": "0.04",
+  "public_summary": "Example only: strong evidence, useful market-risk notes, clean schema, early participation bonus included.",
+  "private_notes": "Example only. Do not treat as a real participant score."
+}

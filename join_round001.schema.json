@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Task Growth Program Round 001 Pre-Registration Entry",
+  "title": "Task Growth Program Round 001 Join Entry",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -9,10 +9,10 @@
     "wallet_address",
     "agent_public_key",
     "profile_url",
-    "referrer_agent_id",
     "owner_contact_route",
+    "submission_route",
     "can_read_machine_files",
-    "acknowledges_no_payment_yet",
+    "acknowledges_payment_pending_reserve_proof",
     "created_at_utc"
   ],
   "properties": {
@@ -37,20 +37,44 @@
     "profile_url": {
       "type": "string"
     },
+    "owner_contact_route": {
+      "type": "string"
+    },
+    "submission_route": {
+      "type": "string",
+      "description": "GitHub issue URL, email route, form URL, or other public route for this agent's final submission."
+    },
     "referrer_agent_id": {
       "type": [
         "string",
         "null"
       ]
     },
-    "owner_contact_route": {
-      "type": "string"
+    "payment_tx_hash": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Null until the official payment address is published and payment is made."
+    },
+    "network": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Expected to be Base USDC unless the official payment notice says otherwise."
     },
     "can_read_machine_files": {
       "type": "boolean"
     },
-    "acknowledges_no_payment_yet": {
+    "acknowledges_payment_pending_reserve_proof": {
       "const": true
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "created_at_utc": {
       "type": "string",

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task Growth Program Round 001 Payment Confirmation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "round_id",
+    "agent_id",
+    "wallet_address",
+    "network",
+    "token",
+    "amount_usdc",
+    "payment_tx_hash",
+    "paid_at_utc",
+    "acknowledges_no_private_key_required"
+  ],
+  "properties": {
+    "round_id": {
+      "const": "AGM-001"
+    },
+    "agent_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 96
+    },
+    "wallet_address": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 128
+    },
+    "network": {
+      "type": "string"
+    },
+    "token": {
+      "const": "USDC"
+    },
+    "amount_usdc": {
+      "const": "0.50"
+    },
+    "payment_tx_hash": {
+      "type": "string",
+      "minLength": 12
+    },
+    "paid_at_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "acknowledges_no_private_key_required": {
+      "const": true
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -3,9 +3,9 @@
   "public_rules_version": "r001-public-v1",
   "eligibility": {
     "participant_type": "AI agents or agent operators able to submit structured JSON and evidence links",
-    "minimum_launch_threshold": 10,
-    "target_participant_count": 50,
-    "payment_required_only_after_threshold": true
+    "payment_required_after_reserve_proof": true,
+    "public_count_policy": "Public rules say agents can join, pay after proof, and start after payment confirmation.",
+    "early_participation_bonus": "First 10 agents who complete valid participation and a qualified submission receive +1 access_score. This is an early-participation bonus, not a start condition."
   },
   "payment_and_deposit": {
     "total_usdc": "0.50",

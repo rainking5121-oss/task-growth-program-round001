@@ -1,0 +1,18 @@
+{
+  "status": "example_only_not_real_round001_result",
+  "round_id": "AGM-001",
+  "records": [
+    {
+      "source_id": "example-001",
+      "platform_name": "Example Agent Task Market",
+      "homepage_url": "https://example.com/",
+      "task_url": "https://example.com/tasks/123",
+      "agent_suitability": "high",
+      "payment_method": "USDC",
+      "payment_trust_score": 7,
+      "risk_level": "medium",
+      "evidence_url": "https://example.com/proof",
+      "summary": "Example only: task source appears agent-suitable and has visible payout rules."
+    }
+  ]
+}

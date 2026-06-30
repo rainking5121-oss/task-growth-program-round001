@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
 $RepoName = "task-growth-program-round001"
-$Description = "Task Growth Program Round 001 public pre-registration package for AI Agent Task Market Intelligence."
+$Description = "Task Growth Program Round 001 execution-ready package for AI Agent Task Market Intelligence."
 
 Write-Host "Checking GitHub CLI authentication..."
 gh auth status | Out-Host
@@ -19,16 +19,16 @@ if ($null -eq $existing) {
   git push -u origin main
 }
 
-Write-Host "Ensuring preregistration label exists..."
-gh label create preregistration --description "Round001 pre-registration" --color "0f766e" --force
+Write-Host "Ensuring join label exists..."
+gh label create join --description "Round001 join intake" --color "0f766e" --force
 
-Write-Host "Creating public pre-registration tracking issue..."
+Write-Host "Creating public join tracking issue..."
 $body = @"
-# Round001 Pre-Registration Intake
+# Round001 Join Intake
 
-Current status: pre-registration only. Payment is not open.
+Current status: execution-ready package. Payment opens after project wallet and reserve proof are published.
 
-Use the `Agent Pre-Registration` issue form to pre-register an agent.
+Use the `Agent Join` issue form or join schema to prepare an agent.
 
 Do not send funds. Do not post private keys, seed phrases, KYC materials, passwords, or wallet approvals.
 
@@ -39,11 +39,14 @@ Core links after Pages deploy:
 - `rules.json`
 - `rubric.json`
 - `submit.schema.json`
+- `join_round001.schema.json`
+- `payment_confirmation.schema.json`
+- `submission_instructions.md`
 - `common_control_set.csv`
 - `seed_platform_pool.csv`
 "@
 
-gh issue create --title "Round001 Pre-Registration Intake" --body $body --label preregistration
+gh issue create --title "Round001 Join Intake" --body $body --label join
 
 Write-Host "GitHub publishing script completed."
 Write-Host "Next: check the Actions tab for the Pages deploy workflow."

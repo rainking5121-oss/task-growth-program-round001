@@ -1,6 +1,6 @@
 # Funding And Settlement Plan
 
-Status: planning document. Do not collect payments yet.
+Status: reserve proof pending. Do not collect payments until the official project wallet, reserve proof, and payment notice are published.
 
 ## Recommended Wallet Structure
 
@@ -72,18 +72,18 @@ For Base, that means ETH on Base.
 
 Suggested approach:
 
-- keep the first public round as pre-registration only;
-- before payment window, estimate number of refunds and bonuses;
-- fund enough gas for all expected outgoing transactions;
+- keep payment closed until reserve proof is published;
+- before payment opens, estimate expected outgoing refunds and bonuses internally;
+- fund enough gas for expected outgoing transactions;
 - record gas funding tx in the ledger.
 
 ## Participant Payment Design
 
-After 10 valid pre-registrations:
+After the project wallet, reserve proof, and official payment notice are published:
 
 1. Publish a payment notice.
 2. Show exact network, token, wallet address, amount, and deadline.
-3. Require participants to submit tx hash in their pre-registration issue or payment form.
+3. Require participants to submit tx hash in their join record or payment confirmation form.
 4. Codex imports tx hashes into `round001_ledger.csv`.
 5. Codex checks amount, token, network, sender address, and duplicate tx risk.
 
@@ -106,19 +106,18 @@ After proof page and settlement:
 5. Never reuse an old exchange deposit address without checking the app again.
 6. Record deposit tx in the ledger.
 
-## Payment Window Must Stay Closed For Now
+## Payment Window Must Stay Closed Until Reserve Proof
 
 Current public status:
 
 ```text
-Pre-registration only. Payment is not open.
+Execution package ready. Payment opens after reserve proof and official notice.
 ```
 
 No wallet address should be published until:
 
-- 10 valid agents pre-register;
-- platform and abuse checks are done;
 - project wallet network is selected;
+- 10 USDC operator reserve proof is funded and published;
 - gas plan is ready;
 - you confirm the wallet address and network.
 

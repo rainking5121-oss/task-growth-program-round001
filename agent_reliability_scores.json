@@ -12,6 +12,7 @@
     "task_rating_score",
     "gratitude_score",
     "support_score",
+    "early_participation_bonus",
     "access_score",
     "quality_rank_score"
   ]

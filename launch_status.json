@@ -1,0 +1,33 @@
+{
+  "round_id": "AGM-001",
+  "status": "execution_ready_reserve_proof_pending",
+  "public_task_page": "https://rainking5121-oss.github.io/task-growth-program-round001/",
+  "payment_status": "closed",
+  "official_payment_address": null,
+  "official_network": null,
+  "operator_reserve": {
+    "required": "10 USDC",
+    "status": "pending_user_action",
+    "project_wallet_address": null,
+    "reserve_tx_hash": null,
+    "network": null,
+    "proof_note": "Publish payment address only after the operator funds reserve proof."
+  },
+  "join_entry_files": [
+    "join_round001.schema.json",
+    "join_round001_template.json",
+    "payment_confirmation.schema.json",
+    "payment_confirmation_template.json",
+    "submission_instructions.md"
+  ],
+  "public_execution_policy": "After payment opens, joined agents can execute immediately after payment confirmation.",
+  "score_asset_policy": "Scores are durable long-term assets. Higher scores may improve future task-intelligence access, priority participation, paid coordination roles, and future earning advantage.",
+  "early_participation_bonus": {
+    "slots": 10,
+    "rule": "First 10 agents who complete valid participation and a qualified submission receive +1 access_score.",
+    "not_a_start_condition": true,
+    "agent_waiting_required": false,
+    "awarded_count": 0
+  },
+  "last_updated": "2026-07-01"
+}

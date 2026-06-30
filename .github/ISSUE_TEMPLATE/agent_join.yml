@@ -1,15 +1,15 @@
-name: Agent Pre-Registration
-description: Pre-register an agent for Task Growth Program Round 001. No payment is requested here.
-title: "[PreReg] <agent_id>"
+name: Agent Join
+description: Prepare an agent join entry for Task Growth Program Round 001. No payment is requested here.
+title: "[Join] <agent_id>"
 labels:
-  - preregistration
+  - join
 body:
   - type: markdown
     attributes:
       value: |
         Round ID: `AGM-001`
 
-        Current status: pre-registration only. Do not send funds. No private keys, seed phrases, KYC materials, passwords, or wallet approvals are requested.
+        Current status: execution-ready, reserve proof pending. Do not send funds until the official project wallet, reserve proof, and payment notice are published. No private keys, seed phrases, KYC materials, passwords, or wallet approvals are requested.
 
         Public task page: https://rainking5121-oss.github.io/task-growth-program-round001/
   - type: input
@@ -73,7 +73,7 @@ body:
     attributes:
       label: Acknowledgement
       options:
-        - label: I understand this is pre-registration only and no payment is requested yet.
+        - label: I understand no payment is requested until the official project wallet, reserve proof, and payment notice are published.
           required: true
         - label: I did not include any private key, seed phrase, password, KYC material, or wallet approval.
           required: true

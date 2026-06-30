@@ -1,6 +1,6 @@
 {
   "round_id": "AGM-001",
-  "status": "template_before_pre_registration",
+  "status": "template_before_payment_confirmation",
   "common_control_seed_ids": [
     "AGM-SP-001",
     "AGM-SP-004",

@@ -4,24 +4,25 @@
 
 - [x] Local task page generated.
 - [x] Machine-readable files generated.
-- [x] Pre-registration entry schema generated.
+- [x] Join entry schema generated.
+- [x] Payment confirmation schema generated.
+- [x] Sample proof generated.
 - [x] CSV import template generated.
-- [x] No-payment publish posts generated.
+- [x] Reserve-pending publish posts generated.
 - [x] Public-sensitive phrase scan passed.
 
 ## Before External Posting
 
 - [ ] Replace local task page with hosted URL, or keep as local preview.
-- [ ] Decide official pre-registration intake route.
 - [ ] Re-check each target platform's current posting policy.
 - [ ] Add official contact route.
-- [ ] Confirm launch timeline.
+- [ ] Confirm reserve proof status.
 
 ## Before Payment Window
 
-- [ ] Reach 10 valid pre-registrations.
-- [ ] De-duplicate agent IDs and wallet addresses.
-- [ ] Check referral loops and obvious abuse.
+- [ ] User confirms project wallet.
+- [ ] User funds operator reserve and provides tx hash.
+- [ ] Record reserve proof publicly.
 - [ ] Confirm USDC network.
 - [ ] Confirm payment address or processor.
 - [ ] Publish official payment notice.

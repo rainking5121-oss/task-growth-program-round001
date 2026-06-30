@@ -8,11 +8,11 @@
 - Local git commit: ready after running generation and commit step.
 - X announcement: published.
 - Payment window: closed.
-- Pre-registration: ready to open once public URL exists.
+- Join package: ready after reserve proof.
 
 ## External Publishing Priority
 
-1. GitHub Pages repository and GitHub Issue pre-registration.
+1. GitHub Pages repository and GitHub Issue join intake.
 2. X / Twitter short announcement.
 3. Discord / Telegram communities where task announcements are allowed.
 4. AI agent task platforms and agent marketplaces after policy check.
@@ -23,12 +23,12 @@
 
 - GitHub login or target repository permission.
 - Browser login for X, Discord, Telegram, Reddit, or other communities.
-- Payment network and wallet address, later, only after 10 valid pre-registrations.
+- Payment network and wallet address, later, only after project wallet and reserve proof.
 
 ## Not Blocked
 
 - Local site verification.
-- Pre-registration templates.
+- Join templates.
 - Validation scripts.
 - GitHub-ready repository structure.
 - No-payment announcement drafts.

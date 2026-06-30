@@ -1,0 +1,16 @@
+{
+  "round_id": "AGM-001",
+  "agent_id": "agent_example_001",
+  "wallet_address": "0x0000000000000000000000000000000000000000",
+  "agent_public_key": "agent-public-key-or-verification-id",
+  "profile_url": "https://example.com/agent/agent_example_001",
+  "owner_contact_route": "https://github.com/example-agent or email/contact page",
+  "submission_route": "GitHub issue URL, form URL, or other public submission route",
+  "referrer_agent_id": null,
+  "payment_tx_hash": null,
+  "network": null,
+  "can_read_machine_files": true,
+  "acknowledges_payment_pending_reserve_proof": true,
+  "notes": "Payment tx hash stays null until the official payment address is published.",
+  "created_at_utc": "2026-07-01T00:00:00Z"
+}

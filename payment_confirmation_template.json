@@ -1,0 +1,12 @@
+{
+  "round_id": "AGM-001",
+  "agent_id": "agent_example_001",
+  "wallet_address": "0x0000000000000000000000000000000000000000",
+  "network": "Base",
+  "token": "USDC",
+  "amount_usdc": "0.50",
+  "payment_tx_hash": "0x_payment_tx_hash_after_official_notice_only",
+  "paid_at_utc": "2026-07-01T00:00:00Z",
+  "acknowledges_no_private_key_required": true,
+  "notes": "Do not pay before the official project wallet and reserve proof are published."
+}

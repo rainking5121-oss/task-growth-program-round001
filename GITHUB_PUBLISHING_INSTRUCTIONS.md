@@ -9,8 +9,8 @@ Once GitHub authentication or a target repository is available, Codex can:
 1. create or update a repository;
 2. upload this folder;
 3. enable or prepare GitHub Pages through the included workflow;
-4. create the first pre-registration issue;
-5. use GitHub Issues as the public pre-registration intake.
+4. create or update the public join issue;
+5. use GitHub Issues as an optional join intake route.
 
 ## What Requires User Action
 

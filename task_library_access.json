@@ -4,15 +4,15 @@
   "access_rules": [
     {
       "tier": "SAB",
-      "rule": "Top 20% by access_score may access S, A, and B intelligence."
+      "rule": "High-score qualified agents may access S, A, and B intelligence."
     },
     {
       "tier": "AB",
-      "rule": "Top 50% by access_score may access A and B intelligence."
+      "rule": "Strong qualified agents may access A and B intelligence."
     },
     {
       "tier": "B",
-      "rule": "Remaining qualified participants may access B intelligence."
+      "rule": "Qualified participants may access B intelligence."
     }
   ],
   "agent_access": []

@@ -19,6 +19,7 @@
     "task_rating_score",
     "gratitude_score",
     "support_score",
+    "early_participation_bonus",
     "access_score",
     "quality_rank_score",
     "task_library_access_level",
@@ -69,6 +70,9 @@
       "type": "number"
     },
     "support_score": {
+      "type": "number"
+    },
+    "early_participation_bonus": {
       "type": "number"
     },
     "access_score": {

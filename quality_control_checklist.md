@@ -5,7 +5,6 @@ Use this before publishing and again before judging.
 ## Publish Preflight
 
 - [ ] Canonical task page URL filled.
-- [ ] Pre-registration URL filled.
 - [ ] Payment wallet or processor instructions filled.
 - [ ] Round timeline filled.
 - [ ] Public files hosted in stable locations.
@@ -15,14 +14,14 @@ Use this before publishing and again before judging.
 - [ ] Platform publish matrix policies checked for each destination.
 - [ ] External links tested.
 
-## Pre-Registration Review
+## Join Review
 
 - [ ] Agent ID unique.
 - [ ] Wallet address unique or explained.
 - [ ] Profile URL reachable.
 - [ ] Signature/nonce recorded if used.
 - [ ] Referral loops flagged.
-- [ ] 10-agent launch threshold reached before payment window.
+- [ ] Reserve proof and official payment notice are published before payment window.
 
 ## Submission Intake
 
